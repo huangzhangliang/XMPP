@@ -1,0 +1,97 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <LinearLayout
+            android:id="@+id/superContainer"
+            xmlns:tools="http://schemas.android.com/tools"
+            tools:openDrawer="start"
+            android:fitsSystemWindows="true"
+            android:orientation="vertical"
+            android:background="@color/appBGGray"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+
+
+            <RelativeLayout
+                style="@style/BaseItem"
+                android:layout_marginTop="0dp"
+                android:gravity="center_vertical">
+               <ImageView
+                   android:id="@+id/ivPhone"
+                   android:src="@drawable/icon_phone"
+                   android:layout_alignParentLeft="true"
+                   android:layout_centerVertical="true"
+                   android:layout_marginLeft="10dp"
+                   android:layout_width="25dp"
+                   android:layout_height="25dp"/>
+                <EditText
+                    android:id="@+id/etAccount"
+                    android:hint="请输入帐号"
+                    android:layout_toRightOf="@+id/ivPhone"
+                    android:textColorHint="@color/hintColor"
+                    style="@style/EditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+                <View
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/appBGGray"
+                    android:layout_width="350dp"
+                    android:layout_height="1dp"/>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                style="@style/BaseItem"
+                android:layout_marginTop="0dp"
+                android:gravity="center_vertical">
+               <ImageView
+                   android:id="@+id/ivPassword"
+                   android:src="@drawable/icon_password"
+                   android:layout_alignParentLeft="true"
+                   android:layout_centerVertical="true"
+                   android:layout_marginLeft="10dp"
+                   android:layout_width="25dp"
+                   android:layout_height="25dp"/>
+                <EditText
+                    android:id="@+id/etPassword"
+                    android:inputType="numberPassword"
+                    android:hint="请输入密码"
+                    android:layout_toRightOf="@+id/ivPassword"
+                    android:textColorHint="@color/hintColor"
+                    style="@style/EditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+                <View
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/appBGGray"
+                    android:layout_width="350dp"
+                    android:layout_height="1dp"/>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/btnLogin"
+                    android:text="登录"
+                    android:textSize="14sp"
+                    android:layout_marginTop="20dp"
+                    android:layout_centerHorizontal="true"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:background="@drawable/btn_round_orange_selector"
+                    android:textColor="@color/white"
+                    android:layout_width="140dp"
+                    android:layout_height="40dp"/>
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+</layout>

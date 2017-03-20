@@ -1,0 +1,34 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:id="@+id/superContainer"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        tools:openDrawer="start">
+
+        <com.leon.chat.view.NoScrollViewPager
+            android:id="@+id/viewPagerContainer"
+            android:layout_above="@+id/mainMenu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </com.leon.chat.view.NoScrollViewPager>
+
+        <com.android.xlibrary.FlyTabLayout.CommonTabLayout
+            android:id="@+id/mainMenu"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_alignParentBottom="true"
+            android:background="#ffffff"
+            android:elevation="6dp"
+            app:tl_iconHeight="23dp"
+            app:tl_iconWidth="23dp"
+            app:tl_textSelectColor="@color/colorOrange"
+            app:tl_textUnselectColor="#66000000"
+            app:tl_textsize="12sp"
+            app:tl_underline_color="#DDDDDD"
+            app:tl_underline_height="1dp"/>
+    </RelativeLayout>
+
+</layout>

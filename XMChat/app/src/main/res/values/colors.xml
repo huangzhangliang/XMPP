@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f16244</color>
+    <color name="colorPrimaryDark">#f16244</color>
+    <color name="colorAccent">#f16244</color>
+    <color name="colorOrangeLight">#f17f67</color>
+    <color name="colorOrange">#f16244</color>
+    <color name="colorOrangeEx">#c75037</color>
+    <color name="appBGGray">#f2f2f2</color>
+    <color name="appSelectGray">#ededed</color>
+    <color name="colorWhite">#3bffffff</color>
+    <color name="navpage">#FFE1E8EB</color>
+</resources>

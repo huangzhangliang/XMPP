@@ -1,0 +1,115 @@
+<RelativeLayout
+    android:id="@+id/superContainer"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--<RelativeLayout-->
+    <!--android:id="@+id/pic_title"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="44dp"-->
+    <!--android:layout_alignParentTop="true"-->
+    <!--android:background="@color/gray_s"-->
+    <!--android:gravity="center_vertical">-->
+
+
+    <!--<ImageButton-->
+    <!--android:id="@+id/btn_title_back"-->
+    <!--android:layout_width="44dp"-->
+    <!--android:layout_height="44dp"-->
+    <!--android:layout_centerVertical="true"-->
+    <!--android:background="@drawable/btn_bg_selector"-->
+    <!--android:gravity="center"-->
+    <!--android:paddingBottom="10dp"-->
+    <!--android:paddingRight="8dp"-->
+    <!--android:paddingTop="10dp"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:src="@drawable/icon_back"/>-->
+
+
+    <!--<ImageView-->
+    <!--android:id="@+id/pic_line"-->
+    <!--android:layout_width="1dp"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_centerVertical="true"-->
+    <!--android:layout_marginBottom="10dp"-->
+    <!--android:layout_marginTop="10dp"-->
+    <!--android:layout_toRightOf="@id/btn_title_back"-->
+    <!--android:background="@color/gray_smm"/>-->
+
+    <!--<TextView-->
+    <!--android:layout_centerInParent="true"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_toRightOf="@id/pic_line"-->
+    <!--android:text="选择图片"-->
+    <!--android:textColor="@color/shadow"-->
+    <!--android:textSize="18sp"/>-->
+
+    <!--<Button-->
+    <!--android:id="@+id/pic_confirm"-->
+    <!--android:layout_width="60dp"-->
+    <!--android:layout_height="35dp"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:layout_centerVertical="true"-->
+    <!--android:layout_marginRight="16dp"-->
+    <!--android:background="@drawable/pic_finish_button_highlight"-->
+    <!--android:text="确定"-->
+    <!--android:textColor="@color/white"-->
+    <!--android:textSize="14sp" />-->
+    <!--</RelativeLayout>-->
+
+    <com.android.xlibrary.weixinPic.view.ActionbarView
+        android:id="@+id/pic_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <GridView
+        android:id="@+id/pic_gridView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/pic_bottom_ly"
+        android:layout_below="@id/pic_action_bar"
+        android:cacheColorHint="@android:color/transparent"
+        android:clipChildren="true"
+        android:gravity="center"
+        android:horizontalSpacing="3dip"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="3"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="3dip"/>
+
+    <RelativeLayout
+        android:id="@+id/pic_bottom_ly"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="#e0000000"
+        android:clickable="true">
+
+        <TextView
+            android:id="@+id/pic_choose_dir"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:text="所有图片"
+            android:textColor="@drawable/hr_back_text_selector_white"
+            android:textSize="16sp"/>
+
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/pic_choose_dir"
+            android:paddingLeft="0dp"
+            android:paddingTop="6dp"
+            android:src="@drawable/text_indicator"/>
+    </RelativeLayout>
+
+</RelativeLayout>

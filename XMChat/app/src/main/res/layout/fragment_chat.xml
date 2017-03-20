@@ -1,0 +1,48 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:id="@+id/superContainer"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:fitsSystemWindows="true"
+        tools:openDrawer="start"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/contentView"
+            android:background="@color/gray_s"
+            android:layout_alignParentTop="true"
+            android:layout_above="@+id/footerContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </android.support.v7.widget.RecyclerView>
+
+        <LinearLayout
+            android:id="@+id/footerContainer"
+            android:background="@color/colorOrange"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_alignParentBottom="true"
+            android:padding="5dp"
+            android:layout_height="44dp">
+            <EditText
+                android:id="@+id/etText"
+                android:textSize="14sp"
+                android:padding="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/rounded_border_gray"
+                android:layout_weight="4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"/>
+            <Button
+                android:id="@+id/btnSend"
+                android:textSize="14sp"
+                android:text="发送"
+                android:background="@drawable/btn_gray_selector"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+    </RelativeLayout>
+</layout>

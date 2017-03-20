@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="textColorPrimary">#d7212121</color>
+    <color name="selectColor">#ccc9c9</color>
+
+    <color name="dialog_background">#0b424242</color>
+    <color name="white">#FFFFFF</color>
+    <color name="red">#ff0000</color>
+    <color name="gray_m">#757575</color>
+    <color name="gray_smm">#a4a4a4</color>
+    <color name="gray_s">#f1f1f1</color>
+    <color name="gray_sm">#e0e0e0</color>
+    <color name="black">#000000</color>
+    <color name="shadow">#454545</color>
+    <color name="tangerine">#ff6600</color>
+    <color name="orange_tint">#fcc899</color>
+    <color name="silver">#e3e5ec</color>
+    <color name="sybOrange">#f16244</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="hintColor">#7d747474</color>
+
+    <color name="common_actionbar_right_btn_color">#ff9900</color>
+    <!-- 右边按钮颜色 -->
+    <color name="common_actionbar_txt_color">#000000</color>
+    <!-- 文字颜色 -->
+    <color name="common_actionbar_txt_press_color">#7f000000</color>
+    <!-- 文字按下颜色 -->
+    <color name="common_actionbar_bg_color">#f8f8f8</color>
+    <!-- actionbar背景色 -->
+    <color name="common_actionbar_right_btn_trans">#ffcc00</color>
+    <color name="common_actionbar_tip_bg">#FBEBEB</color>
+    <color name="common_actionbar_button_color">#007aff</color>
+    <color name="common_actionbar_button_press_color">#7f007aff</color>
+    <color name="common_actionbar_line">#cbcbcb</color>
+    <color name="common_actionbar_right_txt_color">#666666</color>
+    <color name="common_actionbar_tip_txt_color">#A2A19D</color>
+    <color name="trance2">#50ffffff</color>
+    <color name="white1">#ffffff</color>
+    <color name="theme_body">#383d40</color>
+    <color name="theme_body_sm">#292c2e</color>
+    <color name="green">#20c12b</color>
+    <color name="greens">#178f1f</color>
+
+</resources>
